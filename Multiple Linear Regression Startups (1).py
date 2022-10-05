@@ -14,7 +14,6 @@ X = dataset.iloc[:, :-1] #Take all the columns except last one
 y = dataset.iloc[:, -1] #Take the last column as the result
 
 
-# Use for plotting the data
 sns.heatmap(dataset.isnull(),yticklabels=False,cbar=False,cmap='viridis')
 
 
